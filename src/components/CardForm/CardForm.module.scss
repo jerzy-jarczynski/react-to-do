@@ -1,0 +1,16 @@
+.cardForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+
+  input {
+    margin-bottom: 0;
+    margin-right: 15px;
+    min-width: 0;
+  }
+
+  button {
+    margin: 0;
+  }
+}
