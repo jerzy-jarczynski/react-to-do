@@ -1,0 +1,33 @@
+@import '../../styles/settings.scss';
+
+.navbar {
+  background: darken($color-dark, 3%);
+
+  .navicon {
+    font-size: 24px;
+  }
+
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    color: $color-light;
+    text-decoration: none;
+  }
+
+  .navlinks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    li {
+      margin-left: 10px;
+    }
+
+    li:first-of-type {
+      margin-left: 0;
+    }
+  }
+
+}
