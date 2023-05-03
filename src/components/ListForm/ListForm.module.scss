@@ -1,0 +1,48 @@
+.listForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  letter-spacing: 2px;
+
+  >* {
+    margin-bottom: 15px;
+  }
+
+  input {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  button {
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .listForm {
+    flex-direction: row;
+
+    >* {
+      margin-bottom: 0 !important;
+    }
+
+    input {
+      margin-right: 20px;
+    }
+
+    label {
+      margin-right: 15px;
+    }
+  }
+}
