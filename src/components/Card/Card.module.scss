@@ -10,4 +10,21 @@
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+  word-break: break-all;
+}
+
+.favoriteIcon {
+  color: $color-dark;
+
+  &.active {
+    color: $color-warning;
+  }
+}
+
+.favoriteButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
 }
