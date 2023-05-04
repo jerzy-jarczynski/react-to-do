@@ -17,6 +17,11 @@
   padding: math.div($base-size, 2) 0;
 }
 
+.noCards {
+  text-align: center;
+  font-size: 20px;
+}
+
 @media (max-width: 767px) {
   .column {
     width: calc(100% - 12px);

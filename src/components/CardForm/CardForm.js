@@ -1,7 +1,7 @@
 import styles from './CardForm.module.scss';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addCard } from '../../redux/store';
+import { addCard } from '../../redux/cardsRedux';
 import Button from './../Button/Button';
 import TextInput from './../TextInput/TextInput';
 

@@ -1,7 +1,10 @@
 import styles from './Lists.module.scss';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { getAllLists, updateSearchstring } from '../../redux/store';
+import { updateSearchstring } from '../../redux/searchStringRedux';
+
+import { getAllLists } from '../../redux/listsRedux';
+
 import ListForm from '../ListForm/ListForm';
  
 const Lists = () => {
